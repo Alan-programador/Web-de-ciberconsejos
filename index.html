@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<title>Ciberconsejos</title>
+		<link rel="stylesheet" href="index.css">
+		<link rel="icon" href="imagenes/icono.png">
+		<script src="index.js" defer></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+		<img src="imagenes/titulo.png" id="titulo">
+		<nav><div id="menu">
+				<div id="presentacion" onclick="cambiar(presentacion_parte, 'presentacion')" class="boton"><p>presentacion</p></div>
+				<div id="malware" onclick="cambiar(malware_parte, 'malware')" class="boton"><p>malware</p></div>
+				<div id="consejos" onclick="cambiar(consejos_parte, 'consejos')" class="boton"><p>consejos</p></div>
+				<div id="juego"onclick="cambiar(juego_parte, 'juego')" class="boton"><p>juego</p></div>  
+		</div></nav>
+		<div id="presentacion_parte">
+			<section class="caja" id="principio_presentacion">
+				<h1>CIBERCONSEJOS PARA PRINCIPIANTES</h1>
+				<p class="p_caja">Hoy en dia con el surgimiento de las nuevas tecnologías, han surgidos con ellas nuevos peligros a los que nos tendremos que enfrentar en el día a día. Pero no te preocupes, en esta web aprenderás cómo detectarlas y combatirlas. Desde malware hasta robos de identidad, aquí tienes todo lo que necesitas saber para ser un ciberpro.</p>
+				<img src="imagenes/robot_saluda.png" id="robot_saluda">
+			</section>
+			<section class="caja" id="intro">
+				<h2>¿QUÉ ES UNA CIBERAMENAZA?</h2>
+				<p class="p_caja">Una ciberamenaza es un acto malicioso que busca dañar datos, robar información o afectar la vida digital de las personas. Estas amenazas pueden incluir virus, brechas de datos, ataques DDoS, y otras formas de ciberataques. En general, se refiere a cualquier actividad en el ciberespacio que tiene fines maliciosos, como el acceso no autorizado o la destrucción de sistemas de información. Aquellos que realizan estas acciones se llaman hackers, y hacen uso de programas informáticos malignos conocidos como malware.</p>
+				<img src="imagenes/robot_pregunta.png" id="robot_pregunta">
+			</section>
+		</div>
+		<div id="malware_parte">
+			<section id="principio_malware" class="caja">
+				<h2>¿QUÉ ES UN MALWARE?</h2>
+				<p class="p_caja">Un malware es todo aquel programa o código malicioso que es dañino para los sistemas. El malware busca invadir, dañar o deshabilitar computadoras, sistemas informáticos, redes, tabletas y dispositivos móviles, a menudo controlando parcialmente las operaciones de un dispositivo.</p>
+				<img src="imagenes/robot_anonimus.png" id="robot_anonimus">
+			</section>
+			<section class="caja">
+				<h2>SPYWARE</h2>
+				<p class="p_caja">El spyware es malware que observa en secreto las actividades del usuario de la computadora sin su permiso y lo informa al autor del software. Puede guardar lo que escribes en el teclado y el registro de toda tu actividd en el ordenador.</p>
+				<img src="imagenes/robot_espia.png" id="robot_espia">
+			</section>
+			<section class="caja">
+				<h2>GUSANOS</h2>
+				<p class="p_caja">Los gusanos son malware muy peligroso. Estos se replican en tu ordenador acabando en todos los archivos. Son incluso capaces de infectar otros dispositivos en  una red local. Si sospechas que tu dispositivo está infectado con un gusano, desconéctalo de la red inmediatamente.</p>
+				<img src="imagenes/robot_gusano.png" id="robot_gusano">
+			</section>
+			<section class="caja">
+				<h2>TROYANOS</h2>
+				<p class="p_caja">Un Troyano es uno de los tipos de malware más peligrosos. Generalmente se presenta como algo útil para engañarte. Una vez en tu sistema, los atacantes detrás del Troyano obtienen acceso no autorizado al ordenador afectado. Desde allí, los troyanos pueden ser utilizados para robar información financiera o instalar otros tipos de malware, a menudo ransomware.</p>
+				<img src="imagenes/robot_troyano.png" id="robot_troyano">
+			</section>
+			<section class="caja">
+				<h2>RANSOMWARE</h2>
+				<p class="p_caja">El ransomware es una forma de malware que bloquea el acceso a su dispositivo y/o cifra sus archivos, y le obliga a pagar un rescate para recuperar el acceso. El ransomware se considera el arma preferida de los ciberdelincuentes porque exige un pago rápido y rentable en criptomoneda difícil de rastrear.</p>
+				<img src="imagenes/robot_fallo.png" id="robot_fallo">
+			</section>
+		</div>
+		<div id="consejos_parte">
+			<section id="principio_consejos" class="caja">
+				<h2>CONSEJOS DE SEGURIDAD</h2>
+				<p class="p_caja">En este apartado aprenderás como evitar los errores más comunes que puedes cometer a la hora de utilizar el internet. ¡Ánimo, ya falta poco para convertirte en un ciberpro!</p>
+				<img src="imagenes/robot_celebra.png" id="robot_celebra">
+			</section>
+			<section class="caja">
+				<h2>EMAILS FALSOS</h2>
+				<p class="p_caja">Ten cuidado a la hora de pulsar en enlaces de emails. Los hackers suelen hacerse pasar por empresas famosas con la esperanza de que tengas contratado sus servicios. Presta atención a los detalles: faltas de ortografía, sensación de urgencia, etc. Lo más importante de todo: las compañías <strong>JAMÁS</strong> pondrán un enlace en sus emails.</p>
+				<img src="imagenes/email_falso.png" id="email_falso">		
+			</section>
+			<section class="caja">
+				<h2>ARCHIVOS PIRATAS</h2>
+				<p class="p_caja">Ten cuidado a la hora de descargar archivos de fuentes poco fiables. Muy probablemente esté infectado con un troyano que una vez sea instalado en tu ordenador será demasiado tarde para pararlo. Jamás descargues archivos de fuentes no confiables, sobre todo si el mismo navegador te avisa cuando intentas descargar algo.</p>
+				<img src="imagenes/virus.png" id="virus">
+			</section>
+			<section class="caja">
+				<h2>SPAM</h2>
+				<p class="p_caja">Otro peligro que tienen los sitios piratas es el spam, una cantidad masiva de anuncios fraudulentos y maliciosos. Estos son más peligrosos aun ya que solo hace falta un click para infectar tu dispositivo. Si te encuentras con uno de estos sal de la web inmediatamente.</p>
+				<img src="imagenes/spam.png" id="spam">
+			</section>
+			<section class="caja">
+				<p>Para más consejos visita esta <a href="https://www.malwarebytes.com/es/malware" target="_blank">página</a></p>
+			</section>
+			
+		</div>
+		<div id="juego_parte">
+			<section id="principio_juego" class="caja">
+				<h2>FASE FINAL</h2>
+				<p class="p_caja">¡Wow, has llegado hasta aquí! Prepárate para la prueba final, usa todo lo que has aprendido para superarla y por fin ser un ciberpro. Pulsa <a href="prueba_final.html">aquí</a> para iniciar la prueba</p>
+				<img src="imagenes/robot_karate.png" id="robot_karate">
+			</section>
+		</div>
+	</body>
+</html>

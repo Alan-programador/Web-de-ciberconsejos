@@ -1,0 +1,131 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	height: fit-content;
+	background-image: url("imagenes/fondo.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+h1, h2{
+	margin: auto;
+	text-align: center;
+}
+h1{
+	font-size: 2rem;
+	margin-bottom: 10px;
+	width: 90%;
+	padding-top: 10px;
+	text-decoration: underline;
+}
+h2{
+	margin-top: 15px;
+	margin-bottom: 10px;
+	font-size: 1.5rem;
+	width: 80%;
+	border-bottom: 3px solid black;	
+}
+.caja{
+	margin: auto;
+	width: 50%;
+	min-width: 450px;
+	height: fit-content;
+	background-color: white;
+	border-radius: 10px;
+	border: 3px solid cyan;
+	margin-bottom: 20px;
+	
+}
+.p_caja{
+	font-size: 1.5rem;
+	width: 80%;
+	margin: auto;
+	text-align: justify;
+	line-height: 1.5;
+}
+.boton{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 25%;
+	height: 30px;
+	border: 1px solid black;
+	background-color: rgb(36, 65, 115);	
+}
+.boton p{
+	color: white;
+	font-size: 1.3rem;
+}
+#robot_saluda, #robot_pregunta{
+	width: 30%;
+	display: block;
+	margin: auto;
+}
+#menu{
+	z-index: 1000;
+	display: flex;
+	top: 60px;
+	width: 100%;
+	height:	30px;
+	position: fixed;
+	border: 1px solid black;
+}
+#principio_presentacion, #principio_malware, #principio_consejos, #principio_juego{
+	margin-top: 90px;
+}
+#presentacion{
+	background-color: black;
+}
+#titulo{
+	z-index: 1000;
+	width: 100%;
+	height: 60px;
+	display: block;
+	position: fixed;
+	top: 0;
+}
+#presentacion_parte ,#malware_parte, #consejos_parte, #juego_parte{
+	position: relative;
+	transition: opacity 0.5s linear;
+	z-index: 1;
+}
+#robot_anonimus{
+	width: 50%;
+	margin: auto;
+	display: block;
+}
+#robot_gusano, #robot_espia, #robot_troyano, #robot_fallo, #robot_celebra, #email_falso, #virus, #spam, #robot_karate{
+	width: 30%;
+	margin: auto;
+	display: block;
+}
+#email_falso{
+	width: 100%;
+	border-top: 2px solid black;
+}
+#malware_parte, #consejos_parte, #juego_parte{
+	display: none;
+	opacity: 0;	
+}
+@media (max-width: 480px){
+	.p_caja{
+		font-size: 1rem;
+	}
+	.caja{
+		width: 90%;
+		min-width: 0;
+	}
+	.boton p{
+		font-size: 0.9rem;
+	}
+	h1{
+		font-size:  1.5rem;
+	}
+	h2{
+		font-size: 1.3rem;
+	}
+}
