@@ -59,6 +59,9 @@ h2{
 	border: 1px solid black;
 	background-color: rgb(36, 65, 115);	
 }
+.boton:hover{
+	transform: scale(1.1);
+}
 .boton p{
 	color: white;
 	font-size: 1.3rem;
@@ -133,3 +136,4 @@ h2{
 	}
 
 }
+
