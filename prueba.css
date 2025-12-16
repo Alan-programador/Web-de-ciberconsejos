@@ -9,6 +9,7 @@ body{
 	background-color: black;
 }
 #volver{
+	color: white;
 	font-size: 0.7rem;
 }
 #x{
@@ -48,4 +49,5 @@ body{
 	margin: auto;
 	background-image: url("imagenes/email_falso.png");
 	background-size: contain;
+
 }
