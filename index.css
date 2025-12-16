@@ -3,6 +3,9 @@
 	margin: 0;
 	box-sizing: border-box;
 }
+p{
+	font-family: monaco;
+}
 body{
 	height: fit-content;
 	background-image: url("imagenes/fondo.jpg");
@@ -128,4 +131,5 @@ h2{
 	h2{
 		font-size: 1.3rem;
 	}
+
 }
